@@ -2,6 +2,7 @@
 [Introduction](introduction.md)
 ## [Software](software.md)
 - [PXE Booting](pxe.md)
+
 ## [Hardware](hardware.md)
 - [Switch](switch.md)
 - [Cabinet](cabinet.md)
