@@ -2,7 +2,7 @@
   description = "basic";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-25.11";
   };
 
   outputs = { self , nixpkgs ,... }: let
@@ -12,13 +12,13 @@
       pkgs = import nixpkgs { inherit system; };
     in pkgs.mkShell {
       packages = with pkgs; [
-	    jekyll
-		bundler
+	    cargo 
+		mdbook
       ];
 
       shellHook = ''
-	    jekyll --version
-		bundler --version
+	    cargo --version
+		mdbook --version
 	    echo "Loaded into shell."
       '';
     };
