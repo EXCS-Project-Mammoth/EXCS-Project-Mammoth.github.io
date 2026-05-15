@@ -6,6 +6,8 @@ This can be used to contact former members in case docs are unclear.
 <!-- #2027 -->
 # 2026
 - [Sholto](mailto:sholto.coulter@proton.me)
+- [Isobel](mailto:sablethered@gmail.com)
+- [Temitopeoluwa] (mailto:Youngmetre@gmail.com)
 # Special thanks!
 - Sam & Tina Allen for donating our NAS!
 - [RS Components](https://uk.rs-online.com/web/) for donating 10 RPI 5s!
